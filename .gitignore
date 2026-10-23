@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Expo & React Native
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native Android / iOS builds (Expo prebuild)
+/mobile/android/
+/mobile/ios/
+/mobileV2/android/
+/mobileV2/ios/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Environment files & Secrets
+.env
+.env*.local
+.env.production
+.env.development
+!.env.example
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
